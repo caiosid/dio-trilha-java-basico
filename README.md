@@ -7,9 +7,10 @@ Este repositório contém um conjunto de projetos e exemplos em Java, abordando 
 Repositório para armazenar todo conteúdo do curso Java básico.
 
 ## Funcionalidades Principais
-
-- Liste aqui as principais funcionalidades do seu projeto.
-- Explique brevemente como cada funcionalidade é implementada.
+- Esta funcionalidade visa fornecer exemplos de código Java para os conceitos básicos e avançados da linguagem. Cada exemplo demonstra como usar uma determinada construção da linguagem, 
+  como declarações de variáveis, estruturas de controle, métodos, classes, etc. A implementação envolve a criação de arquivos de código-fonte Java (.java) que contenham os exemplos com 
+  comentários explicativos.
+-  Aqui, você pode incluir uma série de exercícios práticos destinados a reforçar os conceitos aprendidos. Cada exercício pode abordar um aspecto específico da linguagem Java e desafiar os estudantes a aplicarem o que aprenderam. A implementação inclui a criação de arquivos de exercícios com instruções claras e espaço para que os estudantes escrevam seu código Java.
 
 ## Instalação
 
