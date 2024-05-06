@@ -14,7 +14,7 @@ public class AboutMe {
         String sobrenome = scanner.next();
 
         System.out.println("Digite a sua idade: ");
-        String idade = scanner.next();
+        int idade = scanner.nextInt();
 
         System.out.println("Digite a sua altura: ");
         String altura = scanner.next();
