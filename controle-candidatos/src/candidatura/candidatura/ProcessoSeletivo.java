@@ -11,6 +11,26 @@ public class ProcessoSeletivo {
 
     }
 
+    public void entrandoEmContato(String candidato){
+        int tentativasRealizadas = 1;
+        boolean continuarTentando = true;
+        boolean atendeu = false;
+        do{
+            atendeu = atender();
+            continuarTentando = !atendeu;
+            if (continuarTentando) 
+                    tentativasRealizadas++;
+            else
+                System.out.println("Contato realizado com sucesso!");        
+
+        }while(continuarTentando && tentativasRealizadas <3);
+        if (atendeu) 
+            System.out.println("conseguimos contato com " + candidato + "na" +  tentativasRealizadas );
+        else
+            System.out.println("Não conseguimos contato com " +  candidato +  ", número máximo");
+        
+    }
+
     static boolean atender(){
         return new Random().nextInt(3) == 1;
     }
@@ -31,7 +51,7 @@ public class ProcessoSeletivo {
     }
     
 
-    public void selecaoCandidatos(){
+    public static void selecaoCandidatos(){
         String [] candidatos = {"Felipe","Marcia","Julia", "Paulo", "Augusto","Mônica","Fabricio", "Mirela", "Daniela"};
 
         int candidatosSelecionados = 0;
