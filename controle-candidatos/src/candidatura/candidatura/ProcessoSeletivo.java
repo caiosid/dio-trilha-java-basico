@@ -1,13 +1,18 @@
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
     public static void main(String[] args) {
 
-        /*System.out.println("Processo Seletivo!");
-        analisarCandidato(1900.0);
-        analisarCandidato(2200.0);
-        analisarCandidato(2000.0);*/
+        String [] candidatos = {"Felipe","Marcia","Julia", "Paulo", "Augusto"};
+        for (String canditatos : candidatos) {
+            
+        }
 
+    }
+
+    static boolean atender(){
+        return new Random().nextInt(3) == 1;
     }
 
     public void imprimirSelecionados(){
