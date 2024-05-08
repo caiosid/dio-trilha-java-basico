@@ -1,0 +1,24 @@
+package src.lanchonete;
+import src.lanchonete.area.cliente.Cliente;
+import src.lanchonete.atendimento.cozinha.Atendente;
+import src.lanchonete.atendimento.cozinha.Cozinheiro;
+
+public class Estabelecimento {
+public static void main(String[] args) {
+    Cozinheiro cozinheiro = new Cozinheiro();
+    
+    cozinheiro.adicionarSucoNoBalcao();
+    cozinheiro.adicionarLancheNoBalcao();
+    cozinheiro.adicionarComboNoBalcao();
+
+    Atendente atendente = new Atendente();
+    atendente.receberPagamento();
+    atendente.servindoMesa();
+ 
+    Cliente cliente = new Cliente();
+    cliente.escolherLanche();
+    cliente.fazerPedido();
+    cliente.pagarConta();
+
+  }
+}
